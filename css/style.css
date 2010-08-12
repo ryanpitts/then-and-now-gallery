@@ -19,6 +19,8 @@ p.instructions {text-align: center; margin-bottom: 0; font-size: 12px;}
 a.image-toggle-button {display: inline; float: right; padding: 3px 5px; margin: 0 20px 0 0; width: 150px; text-decoration: none; text-align: center; margin-top: 20px; border: 1px solid #621211; background-color: #8b1a1a; color: #fff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: bold; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);}
 a.image-toggle-button:hover {color: #fff; background-color: #711411;}
 
+
+/* overrides for jquery-ui.css */
 .ui-slider .ui-slider-handle{
     width: 32px; 
     height: 32px; 
@@ -28,6 +30,9 @@ a.image-toggle-button:hover {color: #fff; background-color: #711411;}
     margin-left: -16px;
     top: -10px;
     border-style: none; 
+}
+.ui-slider-horizontal {
+    height: 12px;
 }
 .ui-widget-content {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset;
