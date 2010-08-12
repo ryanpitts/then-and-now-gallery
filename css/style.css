@@ -1,0 +1,39 @@
+body {font-family: Arial, sans-serif; line-height: 1.5; font-size: 14px;}
+.container {clear: both; overflow: hidden; width: 940px; margin: 20px auto 40px;}
+
+.then-and-now-item {clear: both; overflow: hidden; padding-top: 10px; margin: 20px 0 40px;}
+.then-and-now-description {font-size: 16px; overflow: hidden;}
+
+.item-details {clear: both; float: left; display: inline; margin: -30px 0 0 30px; width: 700px; overflow: hidden; text-align: left;}
+.item-caption {font-size: 16px; padding-right: 261px;}
+.item-credit {float: right; width: 200px; padding-left: 30px; margin-left: 30px; border-left: 1px solid #e3e3e3; font-size: 12px;}
+.item-credit-name {font-weight: bold;}
+
+.image-holder {position: relative; width: 910px; margin: 20px auto;}
+.image-one {position: absolute; top: 0; left: 0; width: 50%; overflow-x: hidden; border-right: 1px solid #fff;}
+.slider {margin-top: 5px;}
+
+hr {height: 1px; border-top: 1px solid #e3e3e3; margin: 0 auto 30px; width: 880px;}
+p.instructions {text-align: center; margin-bottom: 0; font-size: 12px;}
+
+a.image-toggle-button {display: inline; float: right; padding: 3px 5px; margin: 0 20px 0 0; width: 150px; text-decoration: none; text-align: center; margin-top: 20px; border: 1px solid #621211; background-color: #8b1a1a; color: #fff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); font-weight: bold; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);}
+a.image-toggle-button:hover {color: #fff; background-color: #711411;}
+
+.ui-slider .ui-slider-handle{
+    width: 32px; 
+    height: 32px; 
+    background: url(../img/bits/button_up_arrow_32x32.png) no-repeat;
+    overflow: hidden; 
+    position: absolute;
+    margin-left: -16px;
+    top: -10px;
+    border-style: none; 
+}
+.ui-widget-content {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+    background: #e4eaed url(../img/bits/slider_gradient_b_24x24.png) repeat-x scroll 50% 50%;
+}
+.ui-corner-all {border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+}

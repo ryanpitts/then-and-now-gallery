@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Then & Now Gallery Demo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    
+    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.hotkeys.js"></script>
+
+    <script type="text/javascript" src="js/then_now_gallery.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <h1>Then & Now Gallery</h1>
+    <div class="then-and-now-description">This is a demo template for the Then & Now photo gallery app we made for <a href="http://www.spokesman.com/">Spokesman.com</a>. We're big fans of The New York Times <a href="http://www.nytimes.com/interactive/2009/11/09/world/europe/20091109-berlinwallthennow.html">Then & Now photo widget</a>, so we made a Django+jQuery app for our site. You can <a href="http://www.spokesman.com/then-and-now/1910-fires/">see it in use here</a>.</div>
+
+    <p class="instructions">You can use the j/k or &larr;/&rarr; keys to navigate up and down this page. Use the sliders below a picture to show before/after.</p>
+
+    <div class="then-and-now-item" id="then-and-now-item-1">
+    <hr />
+        <div class="image-holder">
+            <img src="img/image_two.png" alt="Image two">
+            <div class="image-one">
+                <img src="img/image_one.png" alt="Image one">
+            </div>
+            <div class="slider"></div>
+
+            <a class="image-toggle-button" href="#">
+                <span class="image-toggle-name">Show Image One</span>
+                <span class="image-toggle-name" style="display: none;">Show Image Two</span>
+            </a>
+        </div>
+        <div class="item-details">
+            <div class="item-credit">
+                <div class="item-credit-name">Image One</div>
+                <div class="item-credit-name">Photographer's Name</div>
+                <div class="item-credit-suffix">Photographer Credit</div>
+                <div class="item-credit-name" style="margin-top: 10px;">Image Two</div>
+                <div class="item-credit-name">Photographer's Name</div>
+                <div class="item-credit-suffix">Photographer Credit</div>
+            </div>
+            <div class="item-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non enim nunc. Nunc vel nunc felis. Integer arcu odio, fermentum ac consectetur quis, gravida eu justo. Nunc id mauris elit, sed vehicula lorem. Vestibulum a purus turpis, quis convallis turpis. Donec quis bibendum dolor. Nulla facilisi. Fusce dignissim nunc eget augue interdum nec dignissim arcu fermentum. Nullam porttitor hendrerit ornare. Suspendisse pharetra justo dapibus nisi facilisis et iaculis eros iaculis. Curabitur faucibus suscipit consectetur. Donec a leo diam. Proin auctor commodo nisi a luctus. Vestibulum ut convallis turpis.</div>
+        </div>
+    </div>
+
+    <div class="then-and-now-item" id="then-and-now-item-2">
+    <hr />
+        <div class="image-holder">
+            <img src="img/image_four.png" alt="Image two">
+            <div class="image-one">
+                <img src="img/image_three.png" alt="Image one">
+            </div>
+            <div class="slider"></div>
+
+            <a class="image-toggle-button" href="#">
+                <span class="image-toggle-name">Show Image One</span>
+                <span class="image-toggle-name" style="display: none;">Show Image Two</span>
+            </a>
+        </div>
+        <div class="item-details">
+            <div class="item-credit">
+                <div class="item-credit-name">Image One</div>
+                <div class="item-credit-name">Photographer's Name</div>
+                <div class="item-credit-suffix">Photographer Credit</div>
+                <div class="item-credit-name" style="margin-top: 10px;">Image Two</div>
+                <div class="item-credit-name">Photographer's Name</div>
+                <div class="item-credit-suffix">Photographer Credit</div>
+            </div>
+            <div class="item-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non enim nunc. Nunc vel nunc felis. Integer arcu odio, fermentum ac consectetur quis, gravida eu justo. Nunc id mauris elit, sed vehicula lorem. Vestibulum a purus turpis, quis convallis turpis. Donec quis bibendum dolor. Nulla facilisi. Fusce dignissim nunc eget augue interdum nec dignissim arcu fermentum. Nullam porttitor hendrerit ornare. Suspendisse pharetra justo dapibus nisi facilisis et iaculis eros iaculis. Curabitur faucibus suscipit consectetur. Donec a leo diam. Proin auctor commodo nisi a luctus. Vestibulum ut convallis turpis.</div>
+        </div>
+    </div>
+    
+    </div>
+</body>
+</html>
